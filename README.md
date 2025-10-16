@@ -1,3 +1,6 @@
+## Acknowledgement
+This repo is built upon several repos, e.g., [BSeg]([https://github.com/dvlab-research/PointGroup](https://github.com/fullcyxuc/B-Seg)[Pointgroup](https://github.com/dvlab-research/PointGroup), [HAIS](https://github.com/hustvl/HAIS), [DyCo3D](https://github.com/aim-uofa/DyCo3D), [SoftGroup](https://github.com/thangvubk/SoftGroup), [DKNet](https://github.com/W1zheng/DKNet), [SparseConvNet](https://github.com/facebookresearch/SparseConvNet), [spconv](https://github.com/traveller59/spconv), [IA-SSD](https://github.com/yifanzhang713/IA-SSD/tree/main/pcdet/ops) and [STPLS3D](https://github.com/meidachen/STPLS3D.git).
+
 ## Installation
 
 ### Requirements
@@ -7,8 +10,8 @@
 
 ### Virtual Environment
 ```
-conda create -n bseg python==3.6
-source activate bseg
+conda create -n bisdc python==3.6
+source activate bisdc
 ```
 
 ### Install B-Seg
@@ -136,6 +139,5 @@ For evaluation, please set `eval` as `True` in the config file, and set `split` 
 CUDA_VISIBLE_DEVICES=0 python test.py --config config/BSeg_default_urbanbis.yaml
 ```
 
-## Acknowledgement
-This repo is built upon several repos, e.g., [Pointgroup](https://github.com/dvlab-research/PointGroup), [HAIS](https://github.com/hustvl/HAIS), [DyCo3D](https://github.com/aim-uofa/DyCo3D), [SoftGroup](https://github.com/thangvubk/SoftGroup), [DKNet](https://github.com/W1zheng/DKNet), [SparseConvNet](https://github.com/facebookresearch/SparseConvNet), [spconv](https://github.com/traveller59/spconv), [IA-SSD](https://github.com/yifanzhang713/IA-SSD/tree/main/pcdet/ops) and [STPLS3D](https://github.com/meidachen/STPLS3D.git). 
+ 
 
