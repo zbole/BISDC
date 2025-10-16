@@ -84,7 +84,17 @@ B-Seg
 │   │   │   │   ├── test
 │   │   │   │   │   ├── Areax.txt 
 │   │   │   │   ├── val
+│   │   │   │   │   ├── Areax.txt
+│   ├── Whu3D
+│   │   ├── original
+│   │   │   ├── Main
+│   │   │   │   ├── train
 │   │   │   │   │   ├── Areax.txt 
+│   │   │   │   ├── test
+│   │   │   │   │   ├── Areax.txt 
+│   │   │   │   ├── val
+│   │   │   │   │   ├── Areax.txt 
+
 ...
 ```
 (3) Preprocess and generate the block files `_inst_nostuff.pth` for building instance segmentation. 
@@ -100,17 +110,6 @@ B-Seg
 │   │   ├── original
 │   │   ├── processed
 │   │   │   ├── Qingdao
-│   │   │   │   ├── train
-│   │   │   │   │   ├── X.pth or X.txt 
-│   │   │   │   ├── test_w_label
-│   │   │   │   │   ├── X.pth or X.txt 
-│   │   │   │   ├── test_w_label_gt
-│   │   │   │   │   ├── X.txt 
-│   │   │   │   ├── val
-│   │   │   │   │   ├── X.pth or X.txt 
-│   │   │   │   ├── val_gt
-│   │   │   │   │   ├── X.txt 
-│   │   │   ├── Wuhu
 │   │   │   │   ├── train
 │   │   │   │   │   ├── X.pth or X.txt 
 │   │   │   │   ├── test_w_label
